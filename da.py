@@ -1,4 +1,4 @@
-import subprocess
+balimport subprocess
 import os
 import platform
 import time
@@ -64,7 +64,7 @@ def stop_ddnet_server(process_name):
 
 
 def main():
-    downloads_path = os.path.join(os.path.expanduser("~"), "sukaaaaa")
+    downloads_path = os.path.join(os.path.expanduser("~"), "ebal")
     server_folder = os.path.join(downloads_path, "DDNet-18.9.1-linux_x86_64")
     server_executable_name = "DDNet-Server"  # Имя исполняемого файла
     if platform.system() == 'Windows':
