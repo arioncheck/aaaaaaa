@@ -64,8 +64,8 @@ def stop_ddnet_server(process_name):
 
 
 def main():
-    downloads_path = os.path.join(os.path.expanduser("~"), "sukaaaa")
-    server_folder = os.path.join(downloads_path, "DDNet-18.7-linux_x86_64")
+    downloads_path = os.path.join(os.path.expanduser("~"), "sukaaaaa")
+    server_folder = os.path.join(downloads_path, "DDNet-18.9.1-linux_x86_64")
     server_executable_name = "DDNet-Server"  # Имя исполняемого файла
     if platform.system() == 'Windows':
         server_executable_name = "DDNet-Server.exe"
